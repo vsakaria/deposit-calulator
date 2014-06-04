@@ -18,6 +18,6 @@ angular.module('plenticficTestApp')
           if(targetHousePrice <= key){ return key; }
         });
         return result[Object.keys(result)[0]];
-      };
+      }
     };
   });

@@ -5,6 +5,7 @@
     Deposite Percentage: <input type="number" ng-model="deposit.percent" /><br />
 
     <p>Deposit Amount: <span>{{ deposit.amount }}</span> </p>
+    <p>Stamp Duty: <span>{{ deposit.stampDuty + '%'}}</span> </p>
 
     <button ng-click="submit(deposit)">SAVE</button>
   </form>
